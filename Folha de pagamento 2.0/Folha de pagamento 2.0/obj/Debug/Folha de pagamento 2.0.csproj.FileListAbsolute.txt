@@ -1,0 +1,39 @@
+C:\Users\vinic\Desktop\DEV C#\Folha de pagamento 2.0\Folha de pagamento 2.0\bin\Debug\Folha de pagamento 2.0.exe.config
+C:\Users\vinic\Desktop\DEV C#\Folha de pagamento 2.0\Folha de pagamento 2.0\bin\Debug\Folha de pagamento 2.0.exe
+C:\Users\vinic\Desktop\DEV C#\Folha de pagamento 2.0\Folha de pagamento 2.0\bin\Debug\Folha de pagamento 2.0.pdb
+C:\Users\vinic\Desktop\DEV C#\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.csproj.AssemblyReference.cache
+C:\Users\vinic\Desktop\DEV C#\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha_de_pagamento_2._0.LogIn.resources
+C:\Users\vinic\Desktop\DEV C#\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha_de_pagamento_2._0.Properties.Resources.resources
+C:\Users\vinic\Desktop\DEV C#\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.csproj.GenerateResource.cache
+C:\Users\vinic\Desktop\DEV C#\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Desktop\DEV C#\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.exe
+C:\Users\vinic\Desktop\DEV C#\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.pdb
+C:\Users\vinic\Desktop\DEV C#\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha_de_pagamento_2._0.Principal.resources
+C:\Users\vinic\Desktop\DEV C#\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha_de_pagamento_2._0.Funcionarios.resources
+C:\Users\Leandro\Downloads\PIM-4Semestre-main\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\bin\Debug\Folha de pagamento 2.0.exe.config
+C:\Users\Leandro\Downloads\PIM-4Semestre-main\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\bin\Debug\Folha de pagamento 2.0.exe
+C:\Users\Leandro\Downloads\PIM-4Semestre-main\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\bin\Debug\Folha de pagamento 2.0.pdb
+C:\Users\Leandro\Downloads\PIM-4Semestre-main\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.csproj.AssemblyReference.cache
+C:\Users\Leandro\Downloads\PIM-4Semestre-main\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.csproj.SuggestedBindingRedirects.cache
+C:\Users\Leandro\Downloads\PIM-4Semestre-main\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha_de_pagamento_2._0.LogIn.resources
+C:\Users\Leandro\Downloads\PIM-4Semestre-main\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha_de_pagamento_2._0.Principal.resources
+C:\Users\Leandro\Downloads\PIM-4Semestre-main\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha_de_pagamento_2._0.Properties.Resources.resources
+C:\Users\Leandro\Downloads\PIM-4Semestre-main\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.csproj.GenerateResource.cache
+C:\Users\Leandro\Downloads\PIM-4Semestre-main\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\Downloads\PIM-4Semestre-main\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.exe
+C:\Users\Leandro\Downloads\PIM-4Semestre-main\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.pdb
+C:\Users\Leandro\Downloads\PIM-4Semestre-main\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha_de_pagamento_2._0.DadosFuncionario.resources
+C:\Users\Leandro\Downloads\PIM-4Semestre-main\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha_de_pagamento_2._0.View.DadosTrabalhista.resources
+C:\Users\vinic\Desktop\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\bin\Debug\Folha de pagamento 2.0.exe.config
+C:\Users\vinic\Desktop\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\bin\Debug\Folha de pagamento 2.0.exe
+C:\Users\vinic\Desktop\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\bin\Debug\Folha de pagamento 2.0.pdb
+C:\Users\vinic\Desktop\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.csproj.AssemblyReference.cache
+C:\Users\vinic\Desktop\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha_de_pagamento_2._0.DadosFuncionario.resources
+C:\Users\vinic\Desktop\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha_de_pagamento_2._0.View.DadosTrabalhista.resources
+C:\Users\vinic\Desktop\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha_de_pagamento_2._0.LogIn.resources
+C:\Users\vinic\Desktop\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha_de_pagamento_2._0.Principal.resources
+C:\Users\vinic\Desktop\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha_de_pagamento_2._0.Properties.Resources.resources
+C:\Users\vinic\Desktop\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.csproj.GenerateResource.cache
+C:\Users\vinic\Desktop\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.csproj.CoreCompileInputs.cache
+C:\Users\vinic\Desktop\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.exe
+C:\Users\vinic\Desktop\PIM-4Semestre-main\Folha de pagamento 2.0\Folha de pagamento 2.0\obj\Debug\Folha de pagamento 2.0.pdb
