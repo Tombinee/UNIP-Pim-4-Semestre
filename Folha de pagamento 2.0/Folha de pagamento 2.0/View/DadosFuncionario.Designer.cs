@@ -50,6 +50,7 @@
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.tb_salariobase = new System.Windows.Forms.TextBox();
             this.label15 = new System.Windows.Forms.Label();
             this.tb_pis = new System.Windows.Forms.TextBox();
             this.msk_demissao = new System.Windows.Forms.MaskedTextBox();
@@ -64,7 +65,6 @@
             this.label13 = new System.Windows.Forms.Label();
             this.tb_horastrabalho = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
-            this.tb_salariobase = new System.Windows.Forms.TextBox();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -84,7 +84,7 @@
             // 
             this.msk_cpf.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.msk_cpf.Location = new System.Drawing.Point(53, 13);
-            this.msk_cpf.Mask = "999.999.999-99";
+            this.msk_cpf.Mask = "999,999,999-99";
             this.msk_cpf.Name = "msk_cpf";
             this.msk_cpf.Size = new System.Drawing.Size(128, 26);
             this.msk_cpf.TabIndex = 1;
@@ -175,7 +175,7 @@
             // 
             this.msk_CEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.msk_CEP.Location = new System.Drawing.Point(553, 174);
-            this.msk_CEP.Mask = "99.999-999";
+            this.msk_CEP.Mask = "99,999-999";
             this.msk_CEP.Name = "msk_CEP";
             this.msk_CEP.Size = new System.Drawing.Size(89, 26);
             this.msk_CEP.TabIndex = 9;
@@ -194,14 +194,14 @@
             // 
             this.msk_telefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.msk_telefone.Location = new System.Drawing.Point(583, 19);
-            this.msk_telefone.Mask = "(99)99999.9999";
+            this.msk_telefone.Mask = "(99)99999,9999";
             this.msk_telefone.Name = "msk_telefone";
             this.msk_telefone.Size = new System.Drawing.Size(121, 26);
             this.msk_telefone.TabIndex = 11;
             // 
             // btn_aplicar
             // 
-            this.btn_aplicar.Location = new System.Drawing.Point(173, 284);
+            this.btn_aplicar.Location = new System.Drawing.Point(189, 284);
             this.btn_aplicar.Name = "btn_aplicar";
             this.btn_aplicar.Size = new System.Drawing.Size(105, 23);
             this.btn_aplicar.TabIndex = 12;
@@ -211,7 +211,7 @@
             // 
             // btn_cancelar
             // 
-            this.btn_cancelar.Location = new System.Drawing.Point(374, 284);
+            this.btn_cancelar.Location = new System.Drawing.Point(461, 284);
             this.btn_cancelar.Name = "btn_cancelar";
             this.btn_cancelar.Size = new System.Drawing.Size(97, 23);
             this.btn_cancelar.TabIndex = 15;
@@ -315,6 +315,14 @@
             this.tabPage2.Text = "Dados Trabalhistas";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
+            // tb_salariobase
+            // 
+            this.tb_salariobase.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tb_salariobase.Location = new System.Drawing.Point(598, 24);
+            this.tb_salariobase.Name = "tb_salariobase";
+            this.tb_salariobase.Size = new System.Drawing.Size(123, 26);
+            this.tb_salariobase.TabIndex = 35;
+            // 
             // label15
             // 
             this.label15.AutoSize = true;
@@ -329,7 +337,7 @@
             // tb_pis
             // 
             this.tb_pis.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_pis.Location = new System.Drawing.Point(343, 22);
+            this.tb_pis.Location = new System.Drawing.Point(343, 24);
             this.tb_pis.Margin = new System.Windows.Forms.Padding(2);
             this.tb_pis.Name = "tb_pis";
             this.tb_pis.Size = new System.Drawing.Size(153, 26);
@@ -409,6 +417,7 @@
             this.cb_periculosidade.TabIndex = 26;
             this.cb_periculosidade.Text = "Periculosidade";
             this.cb_periculosidade.UseVisualStyleBackColor = true;
+            this.cb_periculosidade.CheckedChanged += new System.EventHandler(this.cb_periculosidade_CheckedChanged);
             // 
             // cbb_insalubridade
             // 
@@ -461,14 +470,6 @@
             this.label14.Size = new System.Drawing.Size(140, 20);
             this.label14.TabIndex = 20;
             this.label14.Text = "Horas de Trabalho";
-            // 
-            // tb_salariobase
-            // 
-            this.tb_salariobase.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tb_salariobase.Location = new System.Drawing.Point(598, 25);
-            this.tb_salariobase.Name = "tb_salariobase";
-            this.tb_salariobase.Size = new System.Drawing.Size(123, 26);
-            this.tb_salariobase.TabIndex = 35;
             // 
             // DadosFuncionario
             // 

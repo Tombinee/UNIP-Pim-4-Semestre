@@ -12,7 +12,7 @@ namespace Folha_de_pagamento_2._0
     public class FuncionariosController
     {
         SqlConnection conn = null;
-        private string sql = @"Data Source=TOMBINEE;Initial Catalog=funcionarios;Integrated Security=True";
+        private string sql = @"Data Source=TOMBINEE;Initial Catalog=pim;Integrated Security=True";
         private string strsql = string.Empty;
         public void inserir(ClassFuncionarios funcionarios)
         {
@@ -30,21 +30,23 @@ namespace Folha_de_pagamento_2._0
             cmd.Parameters.Add("@UF", SqlDbType.VarChar).Value = funcionarios.uf;
             cmd.Parameters.Add("@Cidade", SqlDbType.VarChar).Value = funcionarios.cidade;
 
-            strsql = "insert into dadostrabalhostas (Cargo, Salariobase, Horasdetrabalho, Insalubridade, Pis, Periculosidade, Dataadmissao, Datademissao) values (@Cargo, @Salariobase, @Horasdetrabalho, @Insalubridade, @Pis, @Periculosidade, @Dataadmissao, @Datademissao)";
-            cmd.Parameters.Add("@Cargo", SqlDbType.VarChar).Value = funcionarios.cargo;
-            cmd.Parameters.Add("@Salariobase", SqlDbType.Decimal).Value = funcionarios.salariobase;
-            cmd.Parameters.Add("@Horasdetrabalho", SqlDbType.Int).Value = funcionarios.horastrabalho;
-            cmd.Parameters.Add("@Insalubridade", SqlDbType.Int).Value = funcionarios.insalubridade;
-            cmd.Parameters.Add("@Pis", SqlDbType.Int).Value = funcionarios.pis;
-            cmd.Parameters.Add("@Periculosidade", SqlDbType.Decimal).Value = funcionarios.periculosidade;
-            cmd.Parameters.Add("@Dataadmissao", SqlDbType.VarChar).Value = funcionarios.admissao;
-            cmd.Parameters.Add("@Datademissao", SqlDbType.VarChar).Value = funcionarios.demissao;
-
+            strsql = "insert into dadostrabalhista (Cargo, Salariobase, Horasdetrabalho, Pis, Periculosidade, Dataadmissao, Datademissao, CpfFunc) values (@Cargo, @Salariobase, @Horasdetrabalho, @Pis, @Periculosidade, @Dataadmissao, @Datademissao, @CpfFunc)";
+            SqlCommand cmd2 = new SqlCommand(strsql, conn);
+            cmd2.Parameters.Add("@Cargo", SqlDbType.VarChar).Value = funcionarios.cargo;
+            cmd2.Parameters.Add("@Salariobase", SqlDbType.Decimal).Value = funcionarios.salariobase;
+            cmd2.Parameters.Add("@Horasdetrabalho", SqlDbType.Int).Value = funcionarios.horastrabalho;
+            cmd2.Parameters.Add("@Insalubridade", SqlDbType.VarChar).Value = funcionarios.insalubridade;
+            cmd2.Parameters.Add("@Pis", SqlDbType.Int).Value = funcionarios.pis;
+            cmd2.Parameters.Add("@Periculosidade", SqlDbType.Bit).Value = funcionarios.periculosidade;
+            cmd2.Parameters.Add("@Dataadmissao", SqlDbType.VarChar).Value = funcionarios.admissao;
+            cmd2.Parameters.Add("@Datademissao", SqlDbType.VarChar).Value = funcionarios.demissao;
+            cmd2.Parameters.Add("@CpfFunc", SqlDbType.VarChar).Value = funcionarios.cpf;
 
             try
             {
                 conn.Open();
                 cmd.ExecuteNonQuery();
+                cmd2.ExecuteNonQuery();
                 MessageBox.Show("Cadastro realizado com sucesso!", "Sucesso");
                 conn.Close();
             }
@@ -57,7 +59,7 @@ namespace Folha_de_pagamento_2._0
 
         public void editar(ClassFuncionarios funcionarios)
         {
-            strsql = "update funcionario set (CPF, Nome, Endereço, Bairro, CEP, Telefone, UF, Cidade) values (@CPF, @Nome, @Endereço, @Bairro, @CEP, @Telefone, @UF, @Cidade)";
+            strsql = @"update funcionario set (CPF, Nome, Endereço, Bairro, CEP, Telefone, UF, Cidade) values (@CPF, @Nome, @Endereço, @Bairro, @CEP, @Telefone, @UF, @Cidade)";
             conn = new SqlConnection(sql);
 
             SqlCommand cmd = new SqlCommand(strsql, conn);
@@ -71,22 +73,24 @@ namespace Folha_de_pagamento_2._0
             cmd.Parameters.Add("@UF", SqlDbType.VarChar).Value = funcionarios.uf;
             cmd.Parameters.Add("@Cidade", SqlDbType.VarChar).Value = funcionarios.cidade;
 
-            strsql = "update dadostrabalhistas set (Cargo, Salariobase, Horasdetrabalho, Insalubridade, Pis, Periculosidade, Dataadmissao, Datademissao) values (@Cargo, @Salariobase, @Horasdetrabalho, @Insalubridade, @Pis, @Periculosidade, @Dataadmissao, @Datademissao)";
-
-            cmd.Parameters.Add("@Cargo", SqlDbType.VarChar).Value = funcionarios.cargo;
-            cmd.Parameters.Add("@Salariobase", SqlDbType.Decimal).Value = funcionarios.salariobase;
-            cmd.Parameters.Add("@Horasdetrabalho", SqlDbType.Int).Value = funcionarios.horastrabalho;
-            cmd.Parameters.Add("@Insalubridade", SqlDbType.Int).Value = funcionarios.insalubridade;
-            cmd.Parameters.Add("@Pis", SqlDbType.Int).Value = funcionarios.pis;
-            cmd.Parameters.Add("@Periculosidade", SqlDbType.Decimal).Value = funcionarios.periculosidade;
-            cmd.Parameters.Add("@Dataadmissao", SqlDbType.VarChar).Value = funcionarios.admissao;
-            cmd.Parameters.Add("@Datademissao", SqlDbType.VarChar).Value = funcionarios.demissao;
+            strsql = "update dadostrabalhista set (Cargo, Salariobase, Horasdetrabalho, Insalubridade, Pis, Periculosidade, Dataadmissao, Datademissao, CpfFunc) values (@Cargo, @Salariobase, @Horasdetrabalho, @Insalubridade, @Pis, @Periculosidade, @Dataadmissao, @Datademissao, @CpfFunc)";
+            SqlCommand cmd2 = new SqlCommand(strsql, conn);
+            cmd2.Parameters.Add("@Cargo", SqlDbType.VarChar).Value = funcionarios.cargo;
+            cmd2.Parameters.Add("@Salariobase", SqlDbType.Decimal).Value = funcionarios.salariobase;
+            cmd2.Parameters.Add("@Horasdetrabalho", SqlDbType.Int).Value = funcionarios.horastrabalho;
+            cmd2.Parameters.Add("@Insalubridade", SqlDbType.VarChar).Value = funcionarios.insalubridade;
+            cmd2.Parameters.Add("@Pis", SqlDbType.Int).Value = funcionarios.pis;
+            cmd2.Parameters.Add("@Periculosidade", SqlDbType.Bit).Value = funcionarios.periculosidade;
+            cmd2.Parameters.Add("@Dataadmissao", SqlDbType.VarChar).Value = funcionarios.admissao;
+            cmd2.Parameters.Add("@Datademissao", SqlDbType.VarChar).Value = funcionarios.demissao;
+            cmd2.Parameters.Add("@CpfFunc", SqlDbType.VarChar).Value = funcionarios.cpf;
 
             try
             {
                 conn.Open();
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("Cadastro alterado com sucesso!", "Sucesso");
+                cmd2.ExecuteNonQuery();
+                MessageBox.Show("Cadastro realizado com sucesso!", "Sucesso");
                 conn.Close();
             }
             catch (Exception ex)

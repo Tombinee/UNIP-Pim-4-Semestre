@@ -13,7 +13,7 @@ namespace Folha_de_pagamento_2._0
 {
     public partial class LogIn : Form
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=TOMBINEE;Initial Catalog=usuario;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=TOMBINEE;Initial Catalog=pim;Integrated Security=True");
         public LogIn()
         {
             InitializeComponent();

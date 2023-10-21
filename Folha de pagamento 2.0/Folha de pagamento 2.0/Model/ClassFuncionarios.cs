@@ -17,13 +17,12 @@ namespace Folha_de_pagamento_2._0
         public string uf { get; set; }
         public string cidade { get; set; }
         public int horastrabalho { get; set; }
-        public int pis { get; set; }
+        public string pis { get; set; }
         public decimal salariobase { get; set; }
-        public int insalubridade { get; set; }
-        public string periculosidade { get; set; }
+        public string insalubridade { get; set; }
+        public int periculosidade { get; set; }
         public string cargo { get; set; }
         public string admissao { get; set; }
         public string demissao { get; set; }
-
     }
 }
